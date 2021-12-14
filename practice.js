@@ -7,10 +7,14 @@
 }
 */
 
-function square (length,width) {
+const square =  function (length,width) {
     return length*width;
 }
-square(20,100);
+
+
+
+
+console.log (square(20, 40))
 
 /* EXERCISE 2
  Write a function called "crazySum" which receives two integers as parameters.
